@@ -1,11 +1,12 @@
 :root {
-    background-color: orange;
+    background-color:blue;
 }
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: orange;
+    color:blue;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: orange;
+    
     padding: 20px;
 }
 
@@ -13,14 +14,13 @@ header {
     text-align: left;
     display: inline;
     list-style-type: none;
-    color: orange;
 }
 
 
 .About, .Previous {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blue;
+    color: orange;
 }
 
 .About img {
@@ -51,9 +51,9 @@ div.gallery {
 
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: orange;
+    color: blue;
     box-sizing: border-box;
-    background-color: blue;
+    background-color:orange;
     float: left;
     padding: 20px;
 }
