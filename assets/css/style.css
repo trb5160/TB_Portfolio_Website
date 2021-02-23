@@ -1,31 +1,31 @@
 :root {
-    background-color:blue;
+  background-color:blue;
 }
 header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:blue;
-    box-sizing: border-box;
-    background-color: orange;
-    
-    padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:blue;
+  box-sizing: border-box;
+  background-color: orange;
+  
+  padding: 20px;
 }
 
 .navbar ul {
-    text-align: left;
-    display: inline;
-    list-style-type: none;
+  text-align: right;
+  display: inline-block;
+  list-style-type: none;
 }
 
 
 .About, .Previous {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: orange;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: orange;
 }
 
 .About img {
-    width: 20%;
-    height: auto;
+  width: 20%;
+  height: auto;
 }
 
 div.gallery {
@@ -50,10 +50,13 @@ div.gallery {
   }
 
 footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blue;
-    box-sizing: border-box;
-    background-color:orange;
-    float: left;
-    padding: 20px;
+  position: relative;
+  margin-top: -180px;
+  height: 180px;
+  clear: both;
+  background-color:orange;
+  color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+
 }
